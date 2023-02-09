@@ -58,7 +58,7 @@ export default {
             console.log('connecting wallet')
             if(!walletConnection.isSignedIn()) {
                 walletConnection.requestSignIn({
-                    contractId: "nft-mint-admin.mywhooshdev.testnet",
+                    contractId: "gamelands.testnet",
                     methodNames: [],
                     successUrl: "",
                     failureUrl: ""
